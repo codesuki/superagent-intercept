@@ -1,6 +1,11 @@
 # superagent-intercept
 Add interceptors that will be called during end() e.g. for handling error conditions without having the same code all over the place.
 
+## Install
+```
+npm install superagent-intercept
+```
+
 ## Example
 ```javascript
 let AuthIntercept = require('superagent-intercept')((err, res) => {
