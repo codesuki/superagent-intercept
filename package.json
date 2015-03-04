@@ -1,0 +1,26 @@
+{
+  "name": "superagent-intercept",
+  "version": "0.1.0",
+  "description": "Add functions that will be called during end() e.g. for handling error conditions without having the same code all over the place.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesuki/superagent-intercept.git"
+  },
+  "keywords": [
+    "superagent",
+    "intercept",
+    "middleware",
+    "ajax",
+    "request"
+  ],
+  "author": "Neri Marschik <marschik_neri@cyberagent.co.jp> (http://www.cyberagent.co.jp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesuki/superagent-intercept/issues"
+  },
+  "homepage": "https://github.com/codesuki/superagent-intercept"
+}
