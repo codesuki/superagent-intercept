@@ -19,7 +19,7 @@ let AuthIntercept = require('superagent-intercept')((err, res) => {
 	}
 });
 
-request.get('/api/something/' + artistId).use(AuthIntercept).end((err, res) {
+request.get('/api/something/' + someId).use(AuthIntercept).end((err, res) {
 	// AuthIntercept will be called here.
 	// ... code ...
 });
